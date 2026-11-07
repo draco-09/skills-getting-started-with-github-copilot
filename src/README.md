@@ -13,7 +13,7 @@ A super simple FastAPI application that allows students to view and sign up for 
 1. Install the dependencies:
 
    ```
-   pip install fastapi uvicorn
+   pip install -r requirements.txt
    ```
 
 2. Run the application:
@@ -28,10 +28,9 @@ A super simple FastAPI application that allows students to view and sign up for 
 
 ## Running Tests
 
-Install the development dependencies and run the test suite from the repository root:
+Run the test suite from the repository root:
 
 ```bash
-pip install -r requirements-dev.txt
 python -m pytest
 ```
 
